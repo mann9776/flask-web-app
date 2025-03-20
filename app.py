@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 
 @app.route("/wish")
-def add():
+def pleaseHappyRegretadd():
     return "Hello, Jenkins"
 
 if __name__ == "__main__":
