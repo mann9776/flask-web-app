@@ -2,6 +2,9 @@ from flask import Flask
 
 app = Flask(__name__)
 
+happy = 40
+pleaseHappy = 50
+
 
 @app.route("/wish")
 def pleaseHappyRegretadd():
