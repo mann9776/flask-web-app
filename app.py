@@ -2,13 +2,9 @@ from flask import Flask
 
 app = Flask(__name__)
 
-happy = 40
-pleaseHappy = 50
-
-
 @app.route("/wish")
-def pleaseHappyRegretadd():
-    return "Hello, Jenkins"
+def pleaseWish():
+    return "Hello, Welcome to First Devops Project"
 
 if __name__ == "__main__":
     app.run(host = "0.0.0.0", port="5000")
